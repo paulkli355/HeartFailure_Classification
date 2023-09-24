@@ -25,7 +25,7 @@ def plot_confusion_matrix(y_pred: np.array, y_test: pd.Series):
     plt.show()
 
 
-def calculate_metrics(y_pred: np.array, y_test: pd.Series) -> float:
+def calculate_metrics(y_pred: np.array, y_test: pd.Series):
     """ Calculate model quality metrics based on 
         expected label values from testing dataset (y_test) and predicted values.
     """
@@ -45,10 +45,10 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series) -> float:
 
     plot_confusion_matrix(y_pred=y_pred, y_test=y_test)
 
-    return model_acc
+    return model_acc, model_mcc
 
 
-def evaluate_model(trained_model, x_test: pd.Series, y_test: pd.Series, is_cnn:bool = False) -> float:
+def evaluate_model(trained_model, x_test: pd.Series, y_test: pd.Series, is_cnn:bool = False):
     """ Based on trained model, proceed with classification and calculate predictions.
         Then calculate model accuracy metrics based on expected values from testing dataset.
     """
@@ -57,8 +57,8 @@ def evaluate_model(trained_model, x_test: pd.Series, y_test: pd.Series, is_cnn:b
     if is_cnn:
         model_predictions = np.argmax(model_predictions, axis=1)
     
-    base_metric = calculate_metrics(y_pred=model_predictions, 
+    acc, mcc = calculate_metrics(y_pred=model_predictions, 
                       y_test=y_test)
     
-    return base_metric
+    return acc, mcc
 
