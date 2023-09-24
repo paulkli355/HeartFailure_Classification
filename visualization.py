@@ -7,6 +7,16 @@ import matplotlib.pyplot as plt
 from sklearn import tree
 from sklearn.metrics import confusion_matrix
 
+
+def plot_correlation_matrix(dataset: pd.DataFrame):
+    """ Calculate Pearson Corelation rates for given dataset and display correlation matrix """
+    corr_matrix = dataset.corr()
+    f,ax=plt.subplots(figsize=(8,8))
+    sns.heatmap(corr_matrix, annot=True, fmt=".2f", linewidths=0.5, ax=ax)
+
+    return corr_matrix
+
+
 def plot_confusion_matrix(y_pred: np.array, y_test: pd.Series):
     """ Display confusion matrix based on predicted and expected values of target """
     plt.figure(figsize=(3,3))

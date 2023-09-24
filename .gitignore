@@ -7,3 +7,4 @@ catboost_info/learn/events.out.tfevents
 __pycache__/visualization.cpython-39.pyc
 __pycache__/model_evaluation.cpython-39.pyc
 *.png
+*.pyc
