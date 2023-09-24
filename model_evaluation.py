@@ -24,11 +24,11 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series):
     model_classification_report = classification_report(y_test, y_pred)
     model_mcc = matthews_corrcoef(y_test, y_pred)
 
-    print(f'Model accuracy: {model_acc*100}%')
-    print(f'Model precision: {model_precision*100}%')
-    print(f'Model recall: {model_recall*100}%')
-    print(f'Model F1-score: {model_f1_score}')
-    print(f'Model Matthews Correlation Coefficient (MCC): {model_mcc}')
+    print(f'Model accuracy: {round(model_acc*100,2)}%')
+    print(f'Model precision: {round(model_precision*100,2)}%')
+    print(f'Model recall: {round(model_recall*100,2)}%')
+    print(f'Model F1-score: {round(model_f1_score,2)}')
+    print(f'Model Matthews Correlation Coefficient (MCC): {round(model_mcc,2)}')
     print(f'Model overall classification report:\n \n{model_classification_report}')
 
     plot_confusion_matrix(y_pred=y_pred, y_test=y_test)
