@@ -78,8 +78,7 @@ def plot_mcc_overview(mcc_scores: dict):
 
 def plot_acc_per_ccp_alpha(ccp_alphas, train_scores, test_scores):
     """ Display accuracy value per CCP Alpha parameter values for training and testing datasets """
-    fig, ax = plt.subplots()
-    plt.figure(figsize=(4, 2))
+    fig, ax = plt.subplots(figsize=(6, 3))
     ax.set_xlabel("CCP Alpha")
     ax.set_ylabel("Accuracy")
     ax.set_title("Accuracy value per CCP Alpha parameter value for training and test datasets")
