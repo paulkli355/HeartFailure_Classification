@@ -1,9 +1,8 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef, roc_curve, auc
+from visualization import plot_confusion_matrix
+from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef, roc_curve, auc
 
 def calculate_model_predictions(model, x_test: pd.Series) -> np.array:
     """ Calculate predictions for selected model
@@ -12,17 +11,6 @@ def calculate_model_predictions(model, x_test: pd.Series) -> np.array:
     model_predictions = model.predict(x_test)
 
     return model_predictions
-
-
-def plot_confusion_matrix(y_pred: np.array, y_test: pd.Series):
-    """ Display confusion matrix based on predicted and expected values of target"""
-    plt.figure(figsize=(4,4))
-    cm = confusion_matrix(y_test, y_pred)
-    ax = sns.heatmap(cm, annot=True, cmap="Blues")
-    ax.set_xlabel('Model Predictions')
-    ax.set_ylabel('Actual values')
-    plt.title('Confussion Matrix for selected model')
-    plt.show()
 
 
 def calculate_metrics(y_pred: np.array, y_test: pd.Series):

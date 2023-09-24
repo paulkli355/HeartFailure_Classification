@@ -1,3 +1,5 @@
 
 *.png
 __pycache__/model_evaluation.cpython-39.pyc
+__pycache__/visualization.cpython-39.pyc
+*.pyc
