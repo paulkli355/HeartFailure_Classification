@@ -1,8 +1,13 @@
 import pandas as pd
 
-from sklearn.feature_selection import VarianceThreshold, mutual_info_classif, SelectKBest, chi2
+from sklearn.feature_selection import VarianceThreshold, mutual_info_classif, chi2
+from sklearn.feature_selection import SelectKBest, RFE, SelectFromModel
+from sklearn.ensemble import RandomForestClassifier
 
-def chi2_feature_selection(x_train: pd.DataFrame, y_train: pd.Series):
+def chi2_feature_selection(train_fold: pd.DataFrame, target_col: str):
+    x_train = train_fold.drop(columns=[target_col])
+    y_train = train_fold[target_col]
+
     assert x_train.isnull().sum().sum() == 0
     f_p_values = chi2(x_train, y_train)
     p_values = pd.Series(f_p_values[1])
@@ -13,8 +18,13 @@ def chi2_feature_selection(x_train: pd.DataFrame, y_train: pd.Series):
 
     return p_values
 
-def exclude_low_variance_features(x_train: pd.DataFrame, x_test: pd.DataFrame, threshold: float):
+def exclude_low_variance_features(train_fold: pd.DataFrame, test_fold: pd.DataFrame, target_col: str, threshold: float):
     """ Exclude features with 0 or lower than given threshold variance from training and testing dataset """
+    x_train = train_fold.drop(columns=[target_col])
+    y_train = train_fold[target_col]
+    x_test = test_fold.drop(columns=[target_col])
+    y_test = test_fold[target_col]
+
     var_thr = VarianceThreshold(threshold)
     var_thr.fit(x_train)
 
