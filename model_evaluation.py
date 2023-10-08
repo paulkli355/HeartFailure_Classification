@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
+import os
 
 from math import sqrt
-from visualization import plot_confusion_matrix
+from visualization import plot_confusion_matrix, plot_roc_curve
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, precision_score, recall_score, f1_score, \
     matthews_corrcoef, mean_squared_error, r2_score, roc_auc_score, roc_curve, auc
 
@@ -33,6 +34,28 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series):
     roc_auc = roc_auc_score(y_test, y_pred)
     model_classification_report = classification_report(y_test, y_pred)
 
+    model_scores = {
+        'True Negative': tn,
+        'False Positive': fp,
+        'False Negative': fn,
+        'True Positive': tp,
+        'Precision (PPV)': model_precision,
+        'Sensitivity (TPR, Recall)': model_specificity,
+        'Accuracy': model_acc,
+        'F1 Score': model_f1_score,
+        'RMSE': rmse,
+        'R Squared': model_r2,
+        'Matthews Correlation Coefficient (MCC)': model_mcc,
+        'ROC AUC score': roc_auc
+    }
+
+    # # Create a directory for the model metrisc if it doesn't exist
+    # if not os.path.exists('scores'):
+    #     os.makedirs('scores')
+
+    # model_scores_df = pd.DataFrame(model_scores)
+    # model_scores_df.to_csv('scores/model_scores.csv', index=False)
+
 
     print(f'Base error test results: TN {tn}, FP {fp}, FN {fn}, TP {tp}')
     print(f'Precision (PPV): {round(model_precision*100,2)}%')
@@ -48,6 +71,7 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series):
     print(f'Model overall classification report:\n \n{model_classification_report}')
 
     plot_confusion_matrix(y_pred=y_pred, y_test=y_test)
+    plot_roc_curve(y_pred=y_pred, y_test=y_test)
 
     return model_acc, model_mcc
 

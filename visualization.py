@@ -5,7 +5,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn import tree
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, roc_curve
+
+
+def plot_roc_curve(y_pred: np.array, y_test: pd.Series):
+    """ Plot the ROC curve based of the probabilities """
+    fpr, tpr, _ = roc_curve(y_test, y_pred)
+    plt.figure(figsize=(3,3))
+    plt.plot(fpr, tpr)
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
 
 
 def plot_correlation_matrix(dataset: pd.DataFrame):
