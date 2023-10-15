@@ -1,0 +1,737 @@
+<root>
+    <1>
+        <Random Forest>
+            <True Negative>40072</True Negative>
+            <False Positive>1141</False Positive>
+            <False Negative>4294</False Negative>
+            <True Positive>450</True Positive>
+            <Precision (PPV)>0.28284098051539913</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0948566610455312</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9723145609395094</Speciticity (TNR)>
+            <Accuracy>0.8817372761494441</Accuracy>
+            <Negative Predictive Value (NPV)>0.9032141730153721</Negative Predictive Value (NPV)>
+            <F1 Score>0.14206787687450673</F1 Score>
+            <RMSE>0.34389347747602883</RMSE>
+            <R Squared>-0.27753353726163055</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.11179245063632982</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.027685439060490622, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5335856109925203</ROC AUC score>
+        </Random Forest>
+        <Decision Tree>
+            <True Negative>38512</True Negative>
+            <False Positive>2701</False Positive>
+            <False Negative>3934</False Negative>
+            <True Positive>810</True Positive>
+            <Precision (PPV)>0.2307035032754201</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.17074198988195616</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9344624269041322</Speciticity (TNR)>
+            <Accuracy>0.8556259111778401</Accuracy>
+            <Negative Predictive Value (NPV)>0.9073175328652877</Negative Predictive Value (NPV)>
+            <F1 Score>0.19624470018170806</F1 Score>
+            <RMSE>0.3799659048153661</RMSE>
+            <R Squared>-0.5596016595641065</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12050071622772532</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.06553757309586782, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5526022083930442</ROC AUC score>
+        </Decision Tree>
+        <Pruning Decision Tree>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.896773070478926</Accuracy>
+            <Negative Predictive Value (NPV)>0.896773070478926</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.32128947931899987</RMSE>
+            <R Squared>-0.1151093101691214</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Pruning Decision Tree>
+        <Logistic Regression>
+            <True Negative>40979</True Negative>
+            <False Positive>234</False Positive>
+            <False Negative>4533</False Negative>
+            <True Positive>211</True Positive>
+            <Precision (PPV)>0.47415730337078654</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.04447723440134907</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9943221798946934</Speciticity (TNR)>
+            <Accuracy>0.8962726026503035</Accuracy>
+            <Negative Predictive Value (NPV)>0.9003998945333099</Negative Predictive Value (NPV)>
+            <F1 Score>0.08132588167276932</F1 Score>
+            <RMSE>0.3220673801391511</RMSE>
+            <R Squared>-0.12051561584658543</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12055123350279671</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.005677820105306578, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5193997071480213</ROC AUC score>
+        </Logistic Regression>
+        <Support Vector Machine>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.896773070478926</Accuracy>
+            <Negative Predictive Value (NPV)>0.896773070478926</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.32128947931899987</RMSE>
+            <R Squared>-0.1151093101691214</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Support Vector Machine>
+        <K Nearest Neighbours>
+            <True Negative>39533</True Negative>
+            <False Positive>1680</False Positive>
+            <False Negative>4109</False Negative>
+            <True Positive>635</True Positive>
+            <Precision (PPV)>0.27429805615550756</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.1338532883642496</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9592361633465168</Speciticity (TNR)>
+            <Accuracy>0.8740344234828209</Accuracy>
+            <Negative Predictive Value (NPV)>0.9058475780211722</Negative Predictive Value (NPV)>
+            <F1 Score>0.1799121688624451</F1 Score>
+            <RMSE>0.3549162950854456</RMSE>
+            <R Squared>-0.3607436333408609</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.1294977154763567</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.040763836653483126, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5465447258553832</ROC AUC score>
+        </K Nearest Neighbours>
+        <Gaussina Naive Bayes>
+            <True Negative>37273</True Negative>
+            <False Positive>3940</False Positive>
+            <False Negative>3297</False Negative>
+            <True Positive>1447</True Positive>
+            <Precision (PPV)>0.26860961574160014</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.3050168634064081</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9043990973721884</Speciticity (TNR)>
+            <Accuracy>0.8425267097504189</Accuracy>
+            <Negative Predictive Value (NPV)>0.918733053980774</Negative Predictive Value (NPV)>
+            <F1 Score>0.28565788174908696</F1 Score>
+            <RMSE>0.39682904411040926</RMSE>
+            <R Squared>-0.7011058342525152</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.19807207065797605</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.09560090262781161, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.6047079803892982</ROC AUC score>
+        </Gaussina Naive Bayes>
+        <XGBoost Classifier>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.896773070478926</Accuracy>
+            <Negative Predictive Value (NPV)>0.896773070478926</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.32128947931899987</RMSE>
+            <R Squared>-0.1151093101691214</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </XGBoost Classifier>
+        <selected features>['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']</selected features>
+    </1>
+    <2>
+        <Random Forest>
+            <True Negative>40131</True Negative>
+            <False Positive>1082</False Positive>
+            <False Negative>4270</False Negative>
+            <True Positive>473</True Positive>
+            <Precision (PPV)>0.30418006430868166</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.09972591187012439</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9737461480600781</Speciticity (TNR)>
+            <Accuracy>0.8835407781356079</Accuracy>
+            <Negative Predictive Value (NPV)>0.9038309947974145</Negative Predictive Value (NPV)>
+            <F1 Score>0.15020641473483645</F1 Score>
+            <RMSE>0.3412612223274013</RMSE>
+            <R Squared>-0.25826168376309755</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12362443529006714</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.026253851939921868, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5367360299651012</ROC AUC score>
+        </Random Forest>
+        <Decision Tree>
+            <True Negative>38595</True Negative>
+            <False Positive>2618</False Positive>
+            <False Negative>3896</False Negative>
+            <True Positive>847</True Positive>
+            <Precision (PPV)>0.24444444444444444</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.17857895846510646</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9364763545483221</Speciticity (TNR)>
+            <Accuracy>0.8582557228653495</Accuracy>
+            <Negative Predictive Value (NPV)>0.908309995057777</Negative Predictive Value (NPV)>
+            <F1 Score>0.20638401559454192</F1 Score>
+            <RMSE>0.376489411716519</RMSE>
+            <R Squared>-0.5314492914859523</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.13257152730175106</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.06352364545167787, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5575276565067143</ROC AUC score>
+        </Decision Tree>
+        <Pruning Decision Tree>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Pruning Decision Tree>
+        <Logistic Regression>
+            <True Negative>40967</True Negative>
+            <False Positive>246</False Positive>
+            <False Negative>4537</False Negative>
+            <True Positive>206</True Positive>
+            <Precision (PPV)>0.4557522123893805</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.04343242673413451</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9940310096328828</Speciticity (TNR)>
+            <Accuracy>0.8959221864392027</Accuracy>
+            <Negative Predictive Value (NPV)>0.9002944796061885</Negative Predictive Value (NPV)>
+            <F1 Score>0.0793070259865255</F1 Score>
+            <RMSE>0.3226109321780607</RMSE>
+            <R Squared>-0.1244890944392556</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.11549343093554292</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.005968990367117172, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5187317181835087</ROC AUC score>
+        </Logistic Regression>
+        <Support Vector Machine>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Support Vector Machine>
+        <K Nearest Neighbours>
+            <True Negative>39518</True Negative>
+            <False Positive>1695</False Positive>
+            <False Negative>4075</False Negative>
+            <True Positive>668</True Positive>
+            <Precision (PPV)>0.28269149386373255</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.1408391313514653</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9588722005192536</Speciticity (TNR)>
+            <Accuracy>0.8744451214204891</Accuracy>
+            <Negative Predictive Value (NPV)>0.9065216892620375</Negative Predictive Value (NPV)>
+            <F1 Score>0.1880101322825781</F1 Score>
+            <RMSE>0.35433723848829496</RMSE>
+            <R Squared>-0.35653399015565634</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.13735610105477214</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.041127799480746366, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5498556659353595</ROC AUC score>
+        </K Nearest Neighbours>
+        <Gaussina Naive Bayes>
+            <True Negative>37360</True Negative>
+            <False Positive>3853</False Positive>
+            <False Negative>3319</False Negative>
+            <True Positive>1424</True Positive>
+            <Precision (PPV)>0.2698502937274967</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.3002319207252794</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9065100817703152</Speciticity (TNR)>
+            <Accuracy>0.8439376795195405</Accuracy>
+            <Negative Predictive Value (NPV)>0.9184099904127436</Negative Predictive Value (NPV)>
+            <F1 Score>0.2842315369261477</F1 Score>
+            <RMSE>0.39504723828987787</RMSE>
+            <R Squared>-0.6861458886302196</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.19728484010065983</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.0934899182296848, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.6033710012477973</ROC AUC score>
+        </Gaussina Naive Bayes>
+        <XGBoost Classifier>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </XGBoost Classifier>
+        <selected features>['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']</selected features>
+    </2>
+    <3>
+        <Random Forest>
+            <True Negative>40033</True Negative>
+            <False Positive>1180</False Positive>
+            <False Negative>4305</False Negative>
+            <True Positive>438</True Positive>
+            <Precision (PPV)>0.27070457354758964</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.09234661606578115</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.971368257588625</Speciticity (TNR)>
+            <Accuracy>0.8806467055444338</Accuracy>
+            <Negative Predictive Value (NPV)>0.9029049573729081</Negative Predictive Value (NPV)>
+            <F1 Score>0.13771419588115077</F1 Score>
+            <RMSE>0.34547546143766306</RMSE>
+            <R Squared>-0.28953014488800255</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.10517371025023421</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.02863174241137505, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5318574368272031</ROC AUC score>
+        </Random Forest>
+        <Decision Tree>
+            <True Negative>38433</True Negative>
+            <False Positive>2780</False Positive>
+            <False Negative>3964</False Negative>
+            <True Positive>779</True Positive>
+            <Precision (PPV)>0.21888170834504075</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.16424204090238245</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9325455560138791</Speciticity (TNR)>
+            <Accuracy>0.8532509356776047</Accuracy>
+            <Negative Predictive Value (NPV)>0.9065028185956554</Negative Predictive Value (NPV)>
+            <F1 Score>0.18766562274150808</F1 Score>
+            <RMSE>0.3830784049282801</RMSE>
+            <R Squared>-0.5855225701230062</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.11016200367219285</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.06745444398612088, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5483937984581307</ROC AUC score>
+        </Decision Tree>
+        <Pruning Decision Tree>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Pruning Decision Tree>
+        <Logistic Regression>
+            <True Negative>41003</True Negative>
+            <False Positive>210</False Positive>
+            <False Negative>4539</False Negative>
+            <True Positive>204</True Positive>
+            <Precision (PPV)>0.4927536231884058</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.043010752688172046</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9949045204183146</Speciticity (TNR)>
+            <Accuracy>0.8966620245452172</Accuracy>
+            <Negative Predictive Value (NPV)>0.9003337578498968</Negative Predictive Value (NPV)>
+            <F1 Score>0.07911576497963932</F1 Score>
+            <RMSE>0.32146224576889715</RMSE>
+            <R Squared>-0.11649565324943012</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.1220820027964025</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.005095479581685391, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5189576365532433</ROC AUC score>
+        </Logistic Regression>
+        <Support Vector Machine>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Support Vector Machine>
+        <K Nearest Neighbours>
+            <True Negative>39427</True Negative>
+            <False Positive>1786</False Positive>
+            <False Negative>4080</False Negative>
+            <True Positive>663</True Positive>
+            <Precision (PPV)>0.27072274397713353</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.13978494623655913</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.95666415936719</Speciticity (TNR)>
+            <Accuracy>0.872356166768213</Accuracy>
+            <Negative Predictive Value (NPV)>0.9062219872664169</Negative Predictive Value (NPV)>
+            <F1 Score>0.1843715239154616</F1 Score>
+            <RMSE>0.35727277146710595</RMSE>
+            <R Squared>-0.3791037064563396</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.1306375178489556</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.043335840632810034, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5482245528018744</ROC AUC score>
+        </K Nearest Neighbours>
+        <Gaussina Naive Bayes>
+            <True Negative>37409</True Negative>
+            <False Positive>3804</False Positive>
+            <False Negative>3337</False Negative>
+            <True Positive>1406</True Positive>
+            <Precision (PPV)>0.2698656429942418</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.2964368543116171</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9076990270060418</Speciticity (TNR)>
+            <Accuracy>0.8446122377926712</Accuracy>
+            <Negative Predictive Value (NPV)>0.9181023904186913</Negative Predictive Value (NPV)>
+            <F1 Score>0.28252788104089216</F1 Score>
+            <RMSE>0.3941925445861816</RMSE>
+            <R Squared>-0.6788577510747906</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.19588522190378801</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.09230097299395822, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.6020679406588295</ROC AUC score>
+        </Gaussina Naive Bayes>
+        <XGBoost Classifier>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </XGBoost Classifier>
+        <selected features>['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']</selected features>
+    </3>
+    <4>
+        <Random Forest>
+            <True Negative>40104</True Negative>
+            <False Positive>1109</False Positive>
+            <False Negative>4269</False Negative>
+            <True Positive>474</True Positive>
+            <Precision (PPV)>0.2994314592545799</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.09993674889310562</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9730910149710043</Speciticity (TNR)>
+            <Accuracy>0.8829750195839499</Accuracy>
+            <Negative Predictive Value (NPV)>0.903792847001555</Negative Predictive Value (NPV)>
+            <F1 Score>0.14985773000316155</F1 Score>
+            <RMSE>0.3420891410379028</RMSE>
+            <R Squared>-0.26437431526119926</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12182371135670009</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.026908985028995705, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5365138819320548</ROC AUC score>
+        </Random Forest>
+        <Decision Tree>
+            <True Negative>38463</True Negative>
+            <False Positive>2750</False Positive>
+            <False Negative>3914</False Negative>
+            <True Positive>829</True Positive>
+            <Precision (PPV)>0.23162894663313774</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.17478389205144423</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9332734816684056</Speciticity (TNR)>
+            <Accuracy>0.8549917312211681</Accuracy>
+            <Negative Predictive Value (NPV)>0.9076385775302641</Negative Predictive Value (NPV)>
+            <F1 Score>0.19923095409757266</F1 Score>
+            <RMSE>0.3807995125769359</RMSE>
+            <R Squared>-0.5667144732057701</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12267388844233694</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.0667265183315944, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5540286868599249</ROC AUC score>
+        </Decision Tree>
+        <Pruning Decision Tree>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Pruning Decision Tree>
+        <Logistic Regression>
+            <True Negative>40976</True Negative>
+            <False Positive>237</False Positive>
+            <False Negative>4537</False Negative>
+            <True Positive>206</True Positive>
+            <Precision (PPV)>0.4650112866817156</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.04343242673413451</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9942493873292407</Speciticity (TNR)>
+            <Accuracy>0.8961180259378536</Accuracy>
+            <Negative Predictive Value (NPV)>0.900314195944016</Negative Predictive Value (NPV)>
+            <F1 Score>0.07944465869649053</F1 Score>
+            <RMSE>0.3223072665363696</RMSE>
+            <R Squared>-0.12237318353606641</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.11732913921492673</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.005750612670759226, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5188409070316877</ROC AUC score>
+        </Logistic Regression>
+        <Support Vector Machine>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Support Vector Machine>
+        <K Nearest Neighbours>
+            <True Negative>39517</True Negative>
+            <False Positive>1696</False Positive>
+            <False Negative>4134</False Negative>
+            <True Positive>609</True Positive>
+            <Precision (PPV)>0.2642082429501085</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.1283997469955724</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9588479363307694</Speciticity (TNR)>
+            <Accuracy>0.8731395247628166</Accuracy>
+            <Negative Predictive Value (NPV)>0.9052942658816522</Negative Predictive Value (NPV)>
+            <F1 Score>0.17281498297389328</F1 Score>
+            <RMSE>0.35617478186584656</RMSE>
+            <R Squared>-0.37064006284358353</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12160880401341802</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.04115206366923058, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5436238416631709</ROC AUC score>
+        </K Nearest Neighbours>
+        <Gaussina Naive Bayes>
+            <True Negative>37297</True Negative>
+            <False Positive>3916</False Positive>
+            <False Negative>3282</False Negative>
+            <True Positive>1461</True Positive>
+            <Precision (PPV)>0.2717128510321741</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.3080328905755851</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9049814378958095</Speciticity (TNR)>
+            <Accuracy>0.8433719209678823</Accuracy>
+            <Negative Predictive Value (NPV)>0.9191207274698736</Negative Predictive Value (NPV)>
+            <F1 Score>0.28873517786561265</F1 Score>
+            <RMSE>0.3957626549235257</RMSE>
+            <R Squared>-0.6922585201283213</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.2016191622202782</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.09501856210419042, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.6065071642356974</ROC AUC score>
+        </Gaussina Naive Bayes>
+        <XGBoost Classifier>
+            <True Negative>41213</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4743</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967925842109844</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967925842109844</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212591100482842</RMSE>
+            <R Squared>-0.1150850459806374</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </XGBoost Classifier>
+        <selected features>['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']</selected features>
+    </4>
+    <5>
+        <Random Forest>
+            <True Negative>40084</True Negative>
+            <False Positive>1128</False Positive>
+            <False Negative>4263</False Negative>
+            <True Positive>481</True Positive>
+            <Precision (PPV)>0.29894344313238036</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.10139123102866779</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.972629331262739</Speciticity (TNR)>
+            <Accuracy>0.8826921403081208</Accuracy>
+            <Negative Predictive Value (NPV)>0.9038717387872911</Negative Predictive Value (NPV)>
+            <F1 Score>0.15142452384700142</F1 Score>
+            <RMSE>0.3425023499070907</RMSE>
+            <R Squared>-0.26719421347668204</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.12252548227584353</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.027370668737260993, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5370102811457034</ROC AUC score>
+        </Random Forest>
+        <Decision Tree>
+            <True Negative>38549</True Negative>
+            <False Positive>2663</False Positive>
+            <False Negative>3892</False Negative>
+            <True Positive>852</True Positive>
+            <Precision (PPV)>0.24238975817923186</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.17959527824620575</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9353828981849946</Speciticity (TNR)>
+            <Accuracy>0.8573635651492733</Accuracy>
+            <Negative Predictive Value (NPV)>0.9082962229919181</Negative Predictive Value (NPV)>
+            <F1 Score>0.20632037776970577</F1 Score>
+            <RMSE>0.3776723909034479</RMSE>
+            <R Squared>-0.5408009774326936</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.1316267424530632</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.06461710181500534, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5574890882156003</ROC AUC score>
+        </Decision Tree>
+        <Pruning Decision Tree>
+            <True Negative>41212</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967708242666899</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967708242666899</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212929749205702</RMSE>
+            <R Squared>-0.11511210327089216</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Pruning Decision Tree>
+        <Logistic Regression>
+            <True Negative>40957</True Negative>
+            <False Positive>255</False Positive>
+            <False Negative>4531</False Negative>
+            <True Positive>213</True Positive>
+            <Precision (PPV)>0.4551282051282051</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.04489881956155144</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.993812481801417</Speciticity (TNR)>
+            <Accuracy>0.8958569066063191</Accuracy>
+            <Negative Predictive Value (NPV)>0.9003913119943722</Negative Predictive Value (NPV)>
+            <F1 Score>0.0817344589409056</F1 Score>
+            <RMSE>0.3227120905601166</RMSE>
+            <R Squared>-0.12498451227961427</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.11731420701581341</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.006187518198582937, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5193556506814841</ROC AUC score>
+        </Logistic Regression>
+        <Support Vector Machine>
+            <True Negative>41212</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967708242666899</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967708242666899</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212929749205702</RMSE>
+            <R Squared>-0.11511210327089216</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </Support Vector Machine>
+        <K Nearest Neighbours>
+            <True Negative>39554</True Negative>
+            <False Positive>1658</False Positive>
+            <False Negative>4110</False Negative>
+            <True Positive>634</True Positive>
+            <Precision (PPV)>0.2766143106457243</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.13364249578414839</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9597689993205862</Speciticity (TNR)>
+            <Accuracy>0.8744886413090782</Accuracy>
+            <Negative Predictive Value (NPV)>0.9058721143275925</Negative Predictive Value (NPV)>
+            <F1 Score>0.18021603183627058</F1 Score>
+            <RMSE>0.3542758228992232</RMSE>
+            <R Squared>-0.35581083719783013</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.13056159386693894</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.040231000679413764, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5467057475523673</ROC AUC score>
+        </K Nearest Neighbours>
+        <Gaussina Naive Bayes>
+            <True Negative>37441</True Negative>
+            <False Positive>3771</False Positive>
+            <False Negative>3299</False Negative>
+            <True Positive>1445</True Positive>
+            <Precision (PPV)>0.27703220858895705</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.30459527824620575</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>0.9084975249927205</Speciticity (TNR)>
+            <Accuracy>0.8461571938375838</Accuracy>
+            <Negative Predictive Value (NPV)>0.9190230731467844</Negative Predictive Value (NPV)>
+            <F1 Score>0.2901606425702812</F1 Score>
+            <RMSE>0.39222800277697695</RMSE>
+            <R Squared>-0.6618555164682141</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.20439659873605193</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 1.0, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 0.09150247500727943, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.6065464016194632</ROC AUC score>
+        </Gaussina Naive Bayes>
+        <XGBoost Classifier>
+            <True Negative>41212</True Negative>
+            <False Positive>0</False Positive>
+            <False Negative>4744</False Negative>
+            <True Positive>0</True Positive>
+            <Precision (PPV)>0.0</Precision (PPV)>
+            <Sensitivity (TPR, Recall)>0.0</Sensitivity (TPR, Recall)>
+            <Speciticity (TNR)>1.0</Speciticity (TNR)>
+            <Accuracy>0.8967708242666899</Accuracy>
+            <Negative Predictive Value (NPV)>0.8967708242666899</Negative Predictive Value (NPV)>
+            <F1 Score>0.0</F1 Score>
+            <RMSE>0.3212929749205702</RMSE>
+            <R Squared>-0.11511210327089216</R Squared>
+            <Matthews Correlation Coefficient (MCC)>0.0</Matthews Correlation Coefficient (MCC)>
+            <Threshold (from ROC Curve)>[inf, 0.0]</Threshold (from ROC Curve)>
+            <False Positive Rate (FPR)>[0.0, 1.0]</False Positive Rate (FPR)>
+            <ROC AUC score>0.5</ROC AUC score>
+        </XGBoost Classifier>
+        <selected features>['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income']</selected features>
+    </5>
+</root>
