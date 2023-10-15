@@ -26,12 +26,14 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series):
     model_recall = recall_score(y_test, y_pred) # sensitivity
     model_specificity = specificity_score(tn, fp)
     model_acc = accuracy_score(y_test, y_pred)
+    model_npv = calculate_npv(tn, fn)
     
     model_f1_score = f1_score(y_test, y_pred)
     model_mcc = matthews_corrcoef(y_test, y_pred)
     rmse = sqrt(mean_squared_error(y_test, y_pred))
     model_r2 = r2_score(y_test, y_pred)
     roc_auc = roc_auc_score(y_test, y_pred)
+    fpr, tpr, thresholds = roc_curve(y_test, y_pred)
     model_classification_report = classification_report(y_test, y_pred)
 
     model_scores = {
@@ -40,22 +42,18 @@ def calculate_metrics(y_pred: np.array, y_test: pd.Series):
         'False Negative': fn,
         'True Positive': tp,
         'Precision (PPV)': model_precision,
-        'Sensitivity (TPR, Recall)': model_specificity,
+        'Sensitivity (TPR, Recall)': model_recall,
+        'Speciticity (TNR)': model_specificity,
         'Accuracy': model_acc,
+        'Negative Predictive Value (NPV)': model_npv,
         'F1 Score': model_f1_score,
         'RMSE': rmse,
         'R Squared': model_r2,
         'Matthews Correlation Coefficient (MCC)': model_mcc,
-        'ROC AUC score': roc_auc
+        'Threshold (from ROC Curve)': thresholds,
+        'False Positive Rate (FPR)': fpr,
+        'ROC AUC score': roc_auc,
     }
-
-    # # Create a directory for the model metrisc if it doesn't exist
-    # if not os.path.exists('scores'):
-    #     os.makedirs('scores')
-
-    # model_scores_df = pd.DataFrame(model_scores)
-    # model_scores_df.to_csv('scores/model_scores.csv', index=False)
-
 
     print(f'Base error test results: TN {tn}, FP {fp}, FN {fn}, TP {tp}')
     print(f'Precision (PPV): {round(model_precision*100,2)}%')
@@ -90,6 +88,7 @@ def evaluate_model(trained_model, x_test: pd.DataFrame, y_test: pd.Series, is_cn
     
     return acc, mcc
 
+
 def calculate_test_results_from_confusion_matrix(y_test: pd.DataFrame, y_pred: pd.DataFrame):
     """ Calculate the confusion matrix and extract TP, FP, TN, FN from that matrix """
     conf_matrix = confusion_matrix(y_test, y_pred)
@@ -97,10 +96,11 @@ def calculate_test_results_from_confusion_matrix(y_test: pd.DataFrame, y_pred: p
 
     return tn, fp, fn, tp
 
+
 def specificity_score(tn: float, fp: float):
     return tn / (tn + fp)
 
 
-# TODO check calculations of following metrics
-#IoU,NPV,FPR,MCC,auc,auc ci 1,auc ci 2,prere,CCWithEvent,CCWithoutEvent,CCAll,Method,CutOff,MonteCarloTresh,NumberOfFeatures
+def calculate_npv(tn: float, fn: float):
+    return tn / (tn + fn)
 
