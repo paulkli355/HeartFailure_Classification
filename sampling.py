@@ -25,17 +25,27 @@ def create_stratified_kfolds(x_df: pd.DataFrame, y_df: pd.DataFrame, dataset: pd
     print(f'{n_splits} Folds created and saved in the "folds" directory successfully')
 
 
-def create_train_test_sets(x_df: pd.DataFrame, y_df: pd.DataFrame, test_size: float):
-    """ Create train and test sets from given dataset. 
+def create_stratified_train_test_sets(x_df: pd.DataFrame, y_df: pd.DataFrame, test_size: float):
+    """ Create stratified train and test sets from given dataset. 
         Split will happen accordingly to provided test_size parameter value (%)
     """
     # Select training and test datasets
     x_train, x_test, y_train, y_test = train_test_split(x_df, 
-                                                        y_df, 
+                                                        y_df,
+                                                        stratify=y_df, 
                                                         random_state=12, 
                                                         test_size=test_size)
 
     print(f"Training dataset consists of {x_train.shape[0]} records")
     print(f"Test dataset consists of {x_test.shape[0]} records")
+
+    # Create a directory for the splited data if it doesn't exist
+    if not os.path.exists('split_data'):
+        os.makedirs('split_data')
+        
+    x_train.to_csv('split_data/X_train_total.csv', index=False)
+    y_train.to_csv('split_data/y_train_total.csv', index=False)
+    x_test.to_csv('split_data/X_test_total.csv', index=False)
+    y_test.to_csv('split_data/y_test_total.csv', index=False)
 
     return x_train, x_test, y_train, y_test
