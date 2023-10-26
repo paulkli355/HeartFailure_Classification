@@ -41,7 +41,9 @@ def select_importatnt_features_by_mi(X_train: pd.DataFrame, y_train: pd.DataFram
 
 
 def select_importatnt_features_by_corr(X_train: pd.DataFrame) -> tuple:
-
+    """ This function removes features that are highly correlated with each other. 
+        It doesn't check the target-feature correlation.
+    """
     def correlation(dataset, threshold):
         col_corr = set()  # Set of all the names of correlated columns
         corr_matrix = dataset.corr()
